@@ -250,11 +250,10 @@ body {
     position: relative;
     display: flex;
     justify-content: space-around;
-    align-content: space-between;
+    align-content:center;
     flex-wrap: wrap;
     gap: 2rem;
     margin: 4em 21em;
-
 }
 
 .qube1 {
