@@ -1,0 +1,1043 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+}
+
+.header-line {
+    background-image: url(foto/shapka.jpg);
+    align-items: center;
+    height: 98px;
+}
+
+.logo {
+    position: relative;
+    left: 10em;
+    top: 1em;
+}
+
+.navitem {
+    display: inline-block;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.3rem;
+    position: relative;
+    left: 12em;
+    bottom: 0.2em;
+    transition: color 0.3s;
+}
+
+.navitem:hover {
+    color: #EF7F04;
+}
+
+.btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: #EF7F04;
+    position: absolute;
+    top: 2em;
+    right: 27em;
+    width: auto;
+    cursor: pointer;
+}
+
+.btt1 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+
+}
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: #3B3A63;
+    position: absolute;
+    top: 2em;
+    right: 13em;
+    width: auto;
+    cursor: pointer;
+}
+
+.btt2 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.rab {
+    background-image: url(foto/banner.jpg);
+    height: 562px;
+}
+
+.vizov {
+    background-image: url(foto/Rectangle.png);
+    width: 418px;
+    height: 440px;
+    position: relative;
+    left: 60%;
+    bottom: 81%;
+}
+
+.vizvat {
+    text-decoration: none;
+    color: #2F2F51;
+    font-size: 18px;
+    font-weight: 900;
+    position: relative;
+    top: 10%;
+    left: 21%;
+}
+
+.forma {
+    position: relative;
+    top: 15%;
+    left: 8.5%;
+}
+
+.text1 {
+    position: absolute;
+    top: 13em;
+    left: 28em;
+}
+
+.text1 h1 {
+    text-decoration: none;
+    color: #EF7F04;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+}
+
+.text1 h2 {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 100;
+    position: relative;
+    width: 470px;
+    text-align: left;
+}
+
+.artss {
+    position: relative;
+    top: 55%;
+    margin-left: 30em;
+}
+
+.artss img {
+    margin-right: 8.7em;
+}
+
+.artstexts {
+    position: absolute;
+    top: 31rem;
+    left: 30rem;
+    display: flex;
+    gap: 4rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 6;
+    text-align: left;
+}
+
+.artstext1 p {
+    width: 160px;
+}
+
+.artstext2 p {
+    width: 160px;
+}
+
+.artstext3 p {
+    width: 160px;
+}
+
+.zamviz {
+    position: absolute;
+    top: 5%;
+    margin-left: 12%;
+    text-decoration: none;
+    color: #2F2F51;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.measurement-container {
+    max-width: 350px;
+    padding: 80px 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    margin-left: 71.4em;
+    bottom: 19em;
+}
+
+.measurement-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.measurement-container input[type="text"], .measurement-container input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    background-color: #E2E2E2;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #25254d;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.measurement-container input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.measurement-container label.checkbox-label {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.measurement-container .lnk {
+    text-decoration: none;
+}
+
+.measurement-container .submit-btn {
+    background-color: #EF7F04;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 18%;
+    margin-top: 7.5%;
+    font-size: 19px;
+}
+
+.tape {
+    position: absolute;
+    bottom: 15.6em;
+    left: 65.8em;
+}
+
+.uslugi .hhh1 {
+    text-align: center;
+}
+
+.hhh1 {
+    margin-top: 5%;
+    color: #2F2F51;
+}
+
+.qubes {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin: 4em 21em;
+
+}
+
+.qube1 {
+    background-image: url(foto/2qubes/qube1.jpg);
+    width: 595px;
+    height: 269px;
+    position: relative;
+    transition: box-shadow 0.3s;
+    border-radius: 10px;
+}
+
+.qube1 img {
+    position: relative;
+    left: 3em;
+    top: 3em;
+}
+
+.qube1 h1 {
+    position: relative;
+    left: 23%;
+    bottom: 15%;
+    text-decoration: none;
+    color: #2F2F51;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    width: 230px;
+}
+
+.qube1 h2 {
+    position: absolute;
+    left: 3em;
+    bottom: 2em;
+    text-decoration: none;
+    color: #2F2F51;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 350px;
+}
+
+.qube2 {
+    background-image: url(foto/2qubes/qube2.jpg);
+    width: 595px;
+    height: 269px;
+    position: relative;
+    transition: box-shadow 0.3s;
+    border-radius: 10px;
+}
+
+.qube2 img {
+    position: relative;
+    left: 3em;
+    top: 3em;
+}
+
+.qube2 h1 {
+    position: relative;
+    left: 23%;
+    bottom: 15%;
+    text-decoration: none;
+    color: #2F2F51;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    width: 230px;
+}
+
+.qube2 h2 {
+    position: absolute;
+    left: 3em;
+    bottom: 0.8em;
+    text-decoration: none;
+    color: #2F2F51;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 350px;
+}
+
+.qube3 {
+    background-image: url(foto/2qubes/qube3.jpg);
+    width: 595px;
+    height: 269px;
+    position: relative;
+    margin-top: 20px;
+    transition: box-shadow 0.3s;
+    border-radius: 10px;
+}
+
+.qube3 img {
+    position: relative;
+    left: 3em;
+    top: 3em;
+}
+
+.qube3 h1 {
+    position: relative;
+    left: 23%;
+    bottom: 13%;
+    text-decoration: none;
+    color: #2F2F51;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    width: 230px;
+}
+
+.qube3 h2 {
+    position: absolute;
+    left: 3em;
+    bottom: 2em;
+    text-decoration: none;
+    color: #2F2F51;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 350px;
+}
+
+
+.qube4 {
+    background-image: url(foto/2qubes/qube4.jpg);
+    width: 595px;
+    height: 269px;
+    position: relative;
+    margin-top: 20px;
+    transition: box-shadow 0.3s;
+    border-radius: 10px;
+}
+
+.qube4 img {
+    position: relative;
+    left: 3em;
+    top: 3em;
+}
+
+.qube4 h1 {
+    position: relative;
+    left: 23%;
+    bottom: 15%;
+    text-decoration: none;
+    color: #2F2F51;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    width: 230px;
+}
+
+.qube4 h2 {
+    position: absolute;
+    left: 3em;
+    bottom: 2em;
+    text-decoration: none;
+    color: #2F2F51;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 350px;
+}
+
+.qube1:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.qube2:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.qube3:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.qube4:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.pth1 {
+    text-align: center;
+    position: relative;
+    margin-top: 6%;
+    text-decoration: none;
+    color: #2F2F51;
+
+}
+
+.productbuttons {
+    text-align: center;
+    gap: 5rem;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.3rem;
+    position: relative;
+    margin-top: 3%;
+}
+
+.prodbtn1, .prodbtn2, .prodbtn3, .prodbtn4 {
+    display: inline-block;
+    margin: 0 35px;
+}
+
+.prodbtt1, .prodbtt2, .prodbtt3,.prodbtt4 {
+    text-decoration: none;
+    color: #2F2F51;
+    font-size: 1.3rem;
+}
+
+.productbuttons .prodbtt1 {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3rem;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: #EF7F04;
+    width: auto;
+    cursor: pointer;
+}
+
+.oknorazrez {
+    background-image: url(foto/productokno.png);
+    width: 1145px;
+    height: 461px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.oknorazrez h1 {
+    text-decoration: none;
+    color: #EF7F04;
+    text-align: left;
+    margin-left: 52%;
+    position: relative;
+    top: 15%;
+}
+
+.oknorazrez h2 {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    width: 450px;
+    margin-left: 52%;
+    position: relative;
+    top: 15%;
+}
+
+.oknorazrez h3 {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    width: 540px;
+    margin-left: 52%;
+    position: relative;
+    top: 15%;
+}
+
+.garant {
+    background-image: url(foto/garant/garant.png);
+    width: 1200px;
+    height: 436px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.garts {
+    position: relative;
+    top: 37%;
+    left: 8%;
+}
+
+.garts img {
+    margin-right: 7.7em;
+}
+
+.gtext {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 40%;
+    max-width: 1100px;
+    left: 3%;
+}
+
+.gtext p {
+    max-width: 400px;
+    margin-left: 4%;
+    margin-right: 3%;
+}
+
+.btn3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3B3A63;
+    padding: 20px 20px;
+    max-width: 240px;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bi1 {
+    margin-right: 10px;
+    max-width: 100px;
+}
+
+.btt3 {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.about h1 {
+    text-align: center;
+    position: relative;
+    margin-top: 6%;
+    text-decoration: none;
+    color: #2F2F51;
+}
+
+.abouutrabotnik {
+    background-image: url(foto/about/about.png);
+    width: 1200px;
+    height: 461px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.aboutbuttons {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.3rem;
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.aboutbtn1, .aboutbtn2, .aboutbtn3, .aboutbtn4 {
+    display: inline-block;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.aboutbtt1, .aboutbtt2, .aboutbtt3, .aboutbtt4 {
+    text-decoration: none;
+    color: #2F2F51;
+    font-size: 1.3rem;
+}
+
+.aboutbuttons .aboutbtt1 {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3rem;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: #EF7F04;
+    width: auto;
+}
+
+.aboutlogo {
+    position: relative;
+    left: 4%;
+    top: 14%;
+}
+
+.abouttext {
+    text-decoration: none;
+    color: #2F2F51;
+    width: 320px;
+    font-size: 16px;
+    font-weight: 450;
+    text-align: left;
+    position: relative;
+    left: 21%;
+    top: 20%;
+}
+
+.aboutarts1, .aboutarts2 {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 9em auto;
+    width: 1200px;
+    right: 100px;
+    bottom: 5em;
+}
+
+.abouttexts1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #2F2F51;
+    position: absolute;
+    margin-top: -36.4rem;
+    left: 28rem;
+}
+
+.abouttexts1 h1 {
+    font-size: 21px;
+    font-weight: 550;
+}
+
+.abouttexts1 h2 {
+    font-size: 18px;
+    font-weight: 450;
+    max-width: 300px;
+    margin-right: 3%;
+    text-align: left;
+}
+
+.about1text, .about2text, .about3text {
+    margin: 0 58px;
+    text-align: left;
+}
+
+.abouttexts2 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #2F2F51;
+    position: absolute;
+    margin-top: -21rem;
+    left: 28rem;
+}
+
+.abouttexts2 h1 {
+    font-size: 21px;
+    font-weight: 550;
+}
+
+
+.abouttexts2 h2 {
+    font-size: 18px;
+    font-weight: 450;
+    max-width: 300px;
+    margin-right: 3%;
+    text-align: left;
+}
+
+.about4text, .about5text, .about6text {
+    margin: 0 58px;
+    text-align: left;
+}
+
+.btn4 {
+    position: absolute;
+    top: 248rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 4px;
+    padding: 15px 10px;
+    background-color: #EF7F04;
+    cursor: pointer;
+}
+
+.btt4 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.bi4 {
+    margin-right: 10px;
+}
+
+.portfolio {
+    background-image: url(foto/portfolio/portbackmap.png);
+    width: 1200px;
+    height: 715px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.portfolio h1 {
+    text-align: center;
+    position: relative;
+    top: 7%;
+    text-decoration: none;
+    color: #2F2F51;
+}
+
+.portselector {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    top: 10%;
+}
+
+.m1, .m2, .m3, .m4 {
+    transition: box-shadow 0.3s;
+}
+
+.m1:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.m2:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.m3:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.m4:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.faq {
+    background-image: url(foto/askback.png);
+    width: 1200px;
+    height: 792px;
+    margin: 0 auto;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.vopros {
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    bottom: 4%;
+}
+
+details {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 2em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    margin: 10px;
+}
+
+summary {
+    font-weight: bold;
+    color: #2F2F51;
+}
+
+details:hover summary {
+    color: #EF7F04;
+}
+
+details[open] {
+    background-color: #eef;
+}
+
+.contacts {
+    max-height:41.23rem;
+}
+
+.consultacia {
+    max-height:44rem;
+}
+
+.contacts h1 {
+    text-align: center;
+    position: relative;
+    font-size: 27px;
+    text-decoration: none;
+    color: #2F2F51;
+}
+
+.besplatno {
+    text-decoration: none;
+    color: #2F2F51;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 27rem;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.nomer h2 {
+    text-decoration: none;
+    color: #2F2F51;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.nomer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 27rem;
+    position: relative;
+}
+
+.addr p {
+    text-decoration: none;
+    color: #2F2F51;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.addr {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 27rem;
+    position: relative;
+}
+
+.mail p {
+    text-decoration: none;
+    color: #2F2F51;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 27rem;
+    position: relative;
+}
+
+.otherinfo {
+    text-decoration: none;
+    color: #2F2F51;
+    font-weight: 400;
+    font-size: 13px;
+    width: 200px;
+    position: relative;
+    margin-left: 27rem;
+    top: 2rem;
+}
+
+.socials {
+    display: flex;
+    align-content: space-between;
+    gap: 1rem;
+    position: relative;
+    margin-left: 27rem;
+    top: 3rem;
+}
+
+.socials img:hover {
+    filter: invert(100%);
+}
+
+.rabotnikidown {
+    position: relative;
+    margin-left: 45rem;
+    bottom: 12rem;
+    z-index: 9999;
+    width: 330px;
+    height: 365px; 
+}
+
+.formadown {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 75px 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 20em;
+    bottom: 47.4rem;
+}
+
+.formadown h2 {
+    text-align: center;
+    position: relative;
+    bottom: 3rem;
+    color: #2F2F51;
+}
+
+.formadown input[type="text"], .formadown input[type="email"], .formadown textarea {
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background-color: #E2E2E2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 2rem;
+    text-decoration: none;
+    color: #25254d;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.formadown input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 2rem;
+}
+
+.formadown label.checkbox-label {
+    font-size: 14px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 2rem;
+}
+
+.formadown .submit-btn2 {
+    background-color: #2F2F51;
+    color: white;
+    padding: 17px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    font-size: 16px;
+    position: relative;
+    top: 1rem;
+}
+
+.lnk2 {
+    text-decoration: none;
+    color: #EF7F1A;
+}
+
+.last {
+    background-image: url(foto/down/down.png);
+    width: auto;
+    
+    height: 147px;
+    position: relative;
+}
+
+.afterico {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 15px;
+
+}
+
+.lastfototext {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 15rem;
+    position: relative;
+    top: 3.3rem;
+}
+
+.navitemz {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s;
+    display: inline-block;
+    padding-right: 3rem;
+    font-weight: 300;
+    font-size: 15px;
+    position: relative;
+    left: 75rem;
+    top: 1rem;
+}
+
+.navitemz:hover {
+    color: #EF7F04;
+}
