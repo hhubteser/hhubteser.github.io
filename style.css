@@ -252,6 +252,7 @@ body {
     justify-content: space-around;
     align-content: space-between;
     flex-wrap: wrap;
+    gap: 2rem;
     margin: 4em 21em;
 
 }
